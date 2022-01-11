@@ -6,6 +6,18 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      body: ["Andada Pro", "serif"],
+      sans: ["ui-sans-serif", "system-ui"],
+    },
   },
-  plugins: [],
+  variants: {
+    extend: {},
+    scrollbar: ["rounded"],
+  },
+  plugins: [
+    require("tailwind-scrollbar"),
+    require("tailwind-scrollbar-hide"),
+    require("@tailwindcss/forms"),
+  ],
 };
