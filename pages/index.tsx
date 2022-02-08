@@ -13,15 +13,12 @@ export default function Home() {
     },
   });
 
-  // Loading animation...
   if (status === "loading") {
     return <Loader />;
   }
 
-  //console.log(session);
-
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Spotify - Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
