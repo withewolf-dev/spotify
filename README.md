@@ -4,6 +4,8 @@ A spotify clone made with nextjs, next-auth, typescript, tailwindcss, spotify ap
 
 ## screenshots
 
+![screenshot two](/s2.png)
+
 ![screenshot one](/s1.png)
 
 
